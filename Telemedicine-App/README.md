@@ -25,7 +25,7 @@ A cutting-edge e-health platform designed to bridge the gap between patients in 
 
 ---
 
-## **How TeleMedPilot Works**
+## **How e-health system Works**
 
 1. **Register:** Create an account and set up your profile.
 2. **Find a Doctor:** Search for specialists based on your needs.
