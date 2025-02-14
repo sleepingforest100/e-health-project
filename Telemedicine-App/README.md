@@ -63,16 +63,7 @@ This project provided valuable experience in:
 
 ---
 
-## **Acknowledgements**
 
-Special thanks to the TeleMedPilot team for their efforts in making healthcare more accessible in Kazakhstan. This project was made possible through contributions from:
-
-- **Frontend Team:** UI/UX development and responsive design.
-- **Backend Team:** API integrations and data security.
-- **Cloud Engineers:** Managing deployment and scalability.
-- **Mobile App Team:** Ensuring a seamless experience on mobile devices.
-
----
 ### **Developer Setup Guide**
 
 1. **Clone the Repository:**
@@ -102,7 +93,7 @@ Special thanks to the TeleMedPilot team for their efforts in making healthcare m
 
 #### **High-Level Overview**
 
-TeleMedPilot utilizes a microservices architecture to ensure scalability and fault tolerance, featuring:
+E-health system utilizes a microservices architecture to ensure scalability and fault tolerance, featuring:
 
 - **Frontend:** A responsive web application built with Next.js and Tailwind CSS.
 - **Backend Services:** Node.js API for managing authentication, appointments, and medical records.
