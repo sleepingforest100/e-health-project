@@ -4,7 +4,7 @@ A cutting-edge e-health platform designed to bridge the gap between patients in 
 
 ---
 
-![Screenshot of TeleMedPilot](.png)
+![Screenshot](.png)
 > The home page displaying doctor search and appointment scheduling functionality.
 
 ## **Key Features**
