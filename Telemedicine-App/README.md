@@ -9,7 +9,7 @@ A cutting-edge e-health platform designed to bridge the gap between patients in 
 
 ## **Key Features**
 
-- **Video Consultations (Agora):** Real-time doctor-patient interactions via seamless video calls.
+- **Video Consultations:** Real-time doctor-patient interactions via seamless video calls.
 - **Doctor and Patient Registration:** Doctors manage their availability while patients can easily book consultations.
 - **Appointment Scheduling:** Flexible time slots for both patients and doctors, ensuring better healthcare access.
 - **Medical Records Management:** Patients can securely store and retrieve prescriptions, test results, and medical history.
