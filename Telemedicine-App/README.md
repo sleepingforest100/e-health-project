@@ -15,7 +15,7 @@ A cutting-edge e-health platform designed to bridge the gap between patients in 
 - **Medical Records Management:** Patients can securely store and retrieve prescriptions, test results, and medical history.
 - **Secure Messaging:** Enables follow-ups and additional medical inquiries with doctors.
 
-## **Why TeleMedPilot for Kazakhstan?**
+## **Why e-health system for Kazakhstan?**
 
 - **Improved Healthcare Access:** Designed to serve patients in remote and rural areas where medical facilities are limited.
 - **Doctor Search & Filters:** Locate specialists based on expertise, location, and availability.
