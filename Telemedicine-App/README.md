@@ -1,21 +1,10 @@
 
-<div style="display: flex;flex-direction: row; align-items: center; justify-content: center;">
-  <img src="https://tele-med-pilot.vercel.app/assets/logo.png" alt="TeleMedPilot Icon" width="100" />
-</div>
-
-# Telemedicine App
-
-
-
+Изменить полностью!
 ## **Your Virtual Healthcare Companion**
 
 A telemedicine platform designed to connect patients with certified doctors via secure online consultations. It simplifies healthcare by offering features such as video calls, appointment booking, secure messaging, and medical record management, making healthcare more accessible and convenient.
 
 ---
-
-
-## [Live Demo](https://telemedicine-mansy.vercel.app)
-## [Video Demo](https://drive.google.com/file/d/1jLJBq4sM2xFOySg1NZpFaYpqA95pb9vL/view?usp=sharing)
 
 
 ![Screenshot of TeleMedPilot](homepage.png)
@@ -101,9 +90,6 @@ Special thanks to the TeleMedPilot team for their dedication to building this pl
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/innovay.io/TeleMedPilot.git
-   ```
 
 2. **Install dependencies:**
 
@@ -153,21 +139,6 @@ TeleMedPilot follows a modular data structure to accommodate patient-doctor inte
 - **Users (Patients, Doctors, Admins)**: Stores user profile details, including role-based access.
 - **Appointments**: Tracks bookings, appointment times, and medical summaries.
 - **Medical Records**: Securely manages patient history, prescriptions, and test results.
-
-
----   
-### **Endnote**
-
-This project was both challenging and rewarding, pushing my skills in state management, API integration, and teamwork. Looking forward to sharing more in future projects!
-
-## **Contact Information**
-
-- **Author:** [Mahmoud Mansy](https://github.com/MMansy19)
-- **Portfolio:** [My Portfolio](https://mahmoud-mansy-portfolio.netlify.app/)
-- **Email:** [mahmoud2abdalfattah@gmail.com](mailto:mahmoud2abdalfattah@gmail.com)
-- **LinkedIn:** [Mahmoud Mansy](https://www.linkedin.com/in/mahmoud-mansy-a189a5232)
-
----
 
 
 
