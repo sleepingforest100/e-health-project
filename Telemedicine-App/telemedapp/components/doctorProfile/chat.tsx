@@ -46,7 +46,7 @@ function Chat() {
     });
     currList.push({
       senderType: "doctor",
-      senderName: "Ahmed",
+      senderName: "Doctor",
       time: currTime,
       text: inputValue,
     });
@@ -65,7 +65,7 @@ function Chat() {
                 src={userImage}
                 alt="Doctor Image"
               />
-              <p className="font-bold">Mahmoud</p>
+              <p className="font-bold">Patient</p>
             </div>
             <button
               onClick={() => (window.location.href = "/doctorProfile/requests")}
