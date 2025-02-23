@@ -8,6 +8,13 @@ import { useRouter } from "next/navigation";
 
 function SignInForm() {
   const router = useRouter();
+  useEffect(() => {
+    const token = localStorage.getItem("jwt");
+    if (token) {
+      router.replace("/dashboard"); // Редирект на защищенную страницу
+    }
+  }, []);
+  
   const [formValid, setFormValid] = useState(false);
   const [error, setError] = useState(false);
   const [signedIn, setSignedIn] = useState(false);
@@ -150,8 +157,8 @@ function SignInForm() {
           tokenExpiryDate: "2024-12-31T23:59:59Z",
           userRole: "Patient",
           id: "user123",
-          firstName: "Mahmoud",
-          lastName: "Mohamed",
+          firstName: "Alina",
+          lastName: "Malakhova",
         };
 
         if (!users.token) {
@@ -160,6 +167,13 @@ function SignInForm() {
           setSignedIn(false);
           setError(true);
           throw new Error("Failed To Sign In");
+        }
+        if (!users.token) {
+          console.log("Authentication failed: No token received.");
+          setLoading(false);
+          setSignedIn(false);
+          setError(true);
+          return; // Выход из функции, если нет токена
         }
 
         if (tokenAuthentication(users)) {

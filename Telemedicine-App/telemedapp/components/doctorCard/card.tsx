@@ -55,8 +55,8 @@ const DoctorFees: React.FC<DoctorFeesProps> = ({ fees60min, fees30min }) => (
   <div className="flex justify-between items-center space-x-2">
     <FaMoneyBill1Wave className="h-6 w-6 text-[#035fe9]" />
     <div className="text-xs md:text-md grow">
-      <span className="text-[#035fe9]">{fees60min} EGP</span>/ 60 min
-      <span className="text-[#035fe9]">{fees30min} EGP</span> / 30 min
+      <span className="text-[#035fe9]">{fees60min} KZT</span>/ 60 min
+      <span className="text-[#035fe9]">{fees30min} KZT</span> / 30 min
     </div>
   </div>
 );
